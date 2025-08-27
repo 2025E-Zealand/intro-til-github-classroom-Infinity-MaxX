@@ -12,6 +12,13 @@ namespace MyFirstGitHubClassRoomConsoleApp60
         public int id {  get; set; }
         public string name { get; set; }
         public string description { get; set; }
+
+        #region Methods
+        public override string ToString()
+        {
+            return base.ToString();
+        }
+        #endregion
         #endregion
     }
 }
