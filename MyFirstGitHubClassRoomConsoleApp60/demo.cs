@@ -17,7 +17,7 @@ namespace MyFirstGitHubClassRoomConsoleApp60
         #region Methods
         public override string ToString()
         {
-            return base.ToString();
+            return $"ID: {id}\nName: {name}\nDescription: {description}";
         }
         #endregion
     }
